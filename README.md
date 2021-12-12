@@ -7,7 +7,9 @@ Creates a handler function with Java. The Lambda function handler is the method 
 
 <h4>
 After the handler is uploaded to a new Lambda Function, we can create an S3 trigger. Click "Add trigger" in our lambda function and attach an S3 bucket to it as trigger. Now, whenever any object is uploaded to the S3 bucket, this will be an event that will trigger our lambda function.
-
+</h4>
+  
+<h4>
 Use CloudWatch logs to debug any S3Events that come in.
 </h4>
 
